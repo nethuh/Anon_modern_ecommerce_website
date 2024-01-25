@@ -879,3 +879,33 @@ body::-webkit-scrollbar-thumb:hover {
     color: var(--sonic-silver);
     font-weight: var(--weight-500);
 }
+
+.sidebar-accordion-menu ion-icon {
+    color: var(--sonic-silver);
+    font-size: 14px;
+    --ionicon-stroke-width: 70px;
+}
+
+.sidebar-submenu-category-list {
+    border-top: 1px solid var(--cultured);
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar-submenu-category-list.active {
+    padding: 13px 0 8px;
+    max-height: 122px;
+    visibility: visible;
+}
+
+.sidebar-submenu-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+    padding: 2px 0;
+}
+
