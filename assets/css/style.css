@@ -1344,5 +1344,15 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 10px;
 }
 
+.product-grid .price-box {
+    display: flex;
+    gap: 10px;
+    font-size: var(--fs-7);
+    color: var(--eerie-black);
+    margin-bottom: 10px;
+}
 
+.product-grid .price { font-weight: var(--weight-700); }
+
+.product-grid del { color: var(--sonic-silver); }
 
