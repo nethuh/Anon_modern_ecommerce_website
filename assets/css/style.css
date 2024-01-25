@@ -1026,5 +1026,33 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 2px;
 }
 
+.product-minimal .showcase-category {
+    width: max-content;
+    color: var(--davys-gray);
+    font-size: var(--fs-8);
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+
+.product-minimal .showcase-category:hover { color: var(--salmon-pink); }
+
+
+.product-minimal .price-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.product-minimal .price {
+    font-size: var(--fs-7);
+    font-weight: var(--weight-700);
+    color: var(--salmon-pink);
+}
+
+.product-minimal .price-box del {
+    font-size: var(--fs-9);
+    color: var(--sonic-silver);
+}
+
 
 
