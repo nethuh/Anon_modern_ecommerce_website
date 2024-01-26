@@ -2155,3 +2155,76 @@ footer {
     .footer-nav-list:not(:last-child) { margin-bottom: 0; }
 
 }
+
+/**
+ * responsive larger than 1024px screen
+ */
+
+@media (min-width: 1024px) {
+
+    /**
+     * #CUSTOM PROPERTY
+     */
+    :root {
+
+        /**
+         * typography
+         */
+
+        --fs-1: 2.625rem;
+        --fs-2: 1.125rem;
+
+    }
+
+
+    /**
+     * #REUSED STYLE
+     */
+    .container {
+        max-width: 980px;
+    }
+
+
+    /**
+     * #NOTIFICATION TOAST
+     */
+    .notification-toast {
+        bottom: 30px;
+    }
+
+
+    /**
+     * #HEADER
+     */
+    .header-social-container {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .header-social-container .social-link {
+        padding: 5px;
+        background: hsl(0, 0%, 95%);
+        border-radius: var(--border-radius-sm);
+        color: var(--sonic-silver);
+        transition: var(--transition-timing);
+    }
+
+    .header-social-container .social-link:hover {
+        background: var(--salmon-pink);
+        color: var(--white);
+    }
+
+    .header-user-actions {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .header-user-actions .action-btn {
+        position: relative;
+        font-size: 35px;
+        color: var(--onyx);
+        padding: 5px;
+    }
+}
