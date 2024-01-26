@@ -2514,3 +2514,113 @@ footer {
 
     .footer-bottom { margin-bottom: 0; }
 }
+
+
+
+
+/**
+ * responsive larger than 1200px screen
+ */
+
+@media (min-width: 1200px) {
+
+    /**
+     * #REUSED STYLE
+     */
+
+    .container { max-width: 1200px; }
+
+
+
+    /**
+     * #HEADER
+     */
+
+    .desktop-menu-category-list { gap: 45px; }
+
+
+
+    /**
+     * #BANNER
+     */
+
+    .slider-item:last-child .banner-img { object-position: top; }
+
+
+
+    /**
+     * #CATEGORY
+     */
+
+    .category-item { min-width: calc(25% - 22.5px); }
+
+    .category-item-title { --fs-9: 0.824rem; }
+
+
+
+    /**
+     * #PRODUCT
+     */
+
+    .product-featured .showcase > div { min-width: calc(50% - 10px); }
+
+    .product-featured .display-number { --fs-5: 1.125rem; }
+
+    .product-grid { grid-template-columns: repeat(4, 1fr); }
+
+
+
+    /**
+     * #TESTIMONIALS, CTA, SERVICE
+     */
+
+    .testimonial, .service {
+        min-width: calc(25% - 20px);
+        width: calc(25% - 20px);
+    }
+
+    .cta-container {
+        min-width: calc(50% - 20px);
+        width: calc(50% - 20px);
+        aspect-ratio: unset;
+    }
+
+    .service-container {
+        justify-content: flex-start;
+        gap: 16px;
+        padding: 30px;
+    }
+
+    .service-item {
+        flex-direction: row;
+        text-align: left;
+    }
+
+
+
+    /**
+     * #BLOG
+     */
+
+    .blog { margin-bottom: 50px; }
+
+    .blog-card { min-width: calc(25% - 22.5px); }
+
+
+
+    /**
+     * #FOOTER
+     */
+
+    footer { padding-top: 50px; }
+
+    .footer-category {
+        margin-bottom: 50px;
+        padding-bottom: 35px;
+    }
+
+    .footer-nav { padding-bottom: 50px; }
+
+}
+
+
