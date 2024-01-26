@@ -1531,3 +1531,13 @@ body::-webkit-scrollbar-thumb:hover {
   #SERVICE
 \*-----------------------------------*/
 
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 15px;
+    border: 1px solid var(--cultured);
+    border-radius: var(--border-radius-md);
+}
