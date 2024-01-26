@@ -1871,4 +1871,14 @@ footer {
     .banner-btn { padding: 7px 20px; }
 
 
+
+    /**
+  * #PRODUCT
+  */
+
+    .product-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
 }
