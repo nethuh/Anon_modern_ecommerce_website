@@ -1588,3 +1588,14 @@ body::-webkit-scrollbar-thumb:hover {
     overscroll-behavior-inline: contain;
     scroll-snap-type: inline mandatory;
 }
+
+.blog-card {
+    min-width: 100%;
+    scroll-snap-align: start;
+}
+
+.blog-banner {
+    width: 100%;
+    border-radius: var(--border-radius-md);
+    margin-bottom: 20px;
+}
