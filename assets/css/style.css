@@ -1614,3 +1614,15 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 5px;
     transition: var(--transition-timing);
 }
+
+.blog-title:hover { color: var(--salmon-pink); }
+
+.blog-meta {
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+}
+
+.blog-meta cite {
+    font-style: normal;
+    color: var(--davys-gray);
+}
