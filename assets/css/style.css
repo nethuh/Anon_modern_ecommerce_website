@@ -1881,4 +1881,30 @@ footer {
         gap: 30px;
     }
 
+
+    /**
+  * #CTA
+  */
+
+    .cta-content { padding: 40px; }
+
+    .cta-content .discount {
+        --fs-11: 0.875rem;
+        padding: 5px 10px;
+    }
+
+    .cta-title { --fs-5: 1.5rem; }
+
+    .cta-text { --fs-7: 1rem; }
+
+    .cta-btn { --fs-9: 1rem; }
+
+
+
+    /**
+     * #FOOTER
+     */
+
+    .copyright { --fs-8: 0.875rem; }
+
 }
