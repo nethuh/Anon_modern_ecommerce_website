@@ -1947,4 +1947,21 @@ footer {
         cursor: pointer;
         transition: var(--transition-timing);
     }
+
+    .header-top-actions select:hover { color: var(--eerie-black); }
+
+    .header-search-container { min-width: 300px; }
+
+
+
+    /**
+     * #BANNER
+     */
+
+    .slider-item { aspect-ratio: 4 / 2; }
+
+    .banner-content { background: none; }
+
+
+
 }
