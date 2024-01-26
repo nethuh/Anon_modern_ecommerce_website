@@ -1488,3 +1488,16 @@ body::-webkit-scrollbar-thumb:hover {
     text-align: center;
     border-radius: var(--border-radius-sm);
 }
+
+.cta-content .discount {
+    background: var(--eerie-black);
+    color: var(--white);
+    font-size: var(--fs-11);
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+    width: max-content;
+    margin: auto;
+    padding: 0 5px;
+    border-radius: var(--border-radius-sm);
+    margin-bottom: 5px;
+}
