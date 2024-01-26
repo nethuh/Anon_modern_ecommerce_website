@@ -1501,3 +1501,17 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: var(--border-radius-sm);
     margin-bottom: 5px;
 }
+
+.cta-title {
+    color: var(--onyx);
+    font-size: var(--fs-5);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.cta-text {
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+    margin-bottom: 5px;
+}
+
