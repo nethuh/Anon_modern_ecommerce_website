@@ -1626,3 +1626,30 @@ body::-webkit-scrollbar-thumb:hover {
     font-style: normal;
     color: var(--davys-gray);
 }
+
+
+
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+footer {
+    background: var(--eerie-black);
+    padding: 30px 0;
+}
+
+.footer-category {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--onyx);
+}
+
+.footer-category-title {
+    color: var(--salmon-pink);
+    font-size: var(--fs-6);
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
