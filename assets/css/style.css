@@ -2135,4 +2135,23 @@ footer {
         min-width: calc(100% - 345px);
     }
 
+    /**
+  * #FOOTER
+  */
+
+    .footer-nav .container {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 50px;
+        column-gap: 20px;
+    }
+
+    .footer-nav-list {
+        min-width: calc(33.33% - 15px);
+        width: calc(33.33% - 15px);
+        flex-grow: 1;
+    }
+
+    .footer-nav-list:not(:last-child) { margin-bottom: 0; }
+
 }
