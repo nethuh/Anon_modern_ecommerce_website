@@ -1356,3 +1356,28 @@ body::-webkit-scrollbar-thumb:hover {
 
 .product-grid del { color: var(--sonic-silver); }
 
+
+
+/*-----------------------------------*\
+  #TESTIMONIAL
+\*-----------------------------------*/
+
+.testimonials-box { margin-bottom: 50px; }
+
+.testimonial-card {
+    padding: 30px 20px;
+    border: 1px solid var(--cultured);
+    border-radius: var(--border-radius-md);
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.testimonial-banner {
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.testimonial-name {
+
+}
