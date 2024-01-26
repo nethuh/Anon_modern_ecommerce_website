@@ -1554,3 +1554,20 @@ body::-webkit-scrollbar-thumb:hover {
     color: var(--salmon-pink);
     transition: var(--transition-timing);
 }
+
+.service-icon ion-icon { --ionicon-stroke-width: 25px; }
+
+.service-item:hover .service-icon { color: var(--eerie-black); }
+
+.service-title {
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);
+    font-weight: var(--weight-600);
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.service-desc {
+    color: var(--sonic-silver);
+    font-size: var(--fs-9);
+}
