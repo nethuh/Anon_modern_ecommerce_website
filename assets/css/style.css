@@ -2082,4 +2082,57 @@ footer {
         aspect-ratio: auto;
         height: 350px;
     }
+
+    .banner-content { max-width: 380px; }
+
+    .banner-subtitle { --fs-7: 1.25rem; }
+
+    .banner-text { --fs-7: 1.125rem; }
+
+    .banner-text b { --fs-2: 1.875rem; }
+
+    .banner-btn { --fs-11: 0.75rem; }
+
+
+
+    /**
+     * #CATEGORY
+     */
+
+    .category-img-box { padding: 20px; }
+
+
+
+    /**
+     * #PRODUCT
+     */
+
+    .product-minimal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product-minimal .product-showcase {
+        min-width: calc(50% - 10px);
+        width: calc(50% - 10px);
+    }
+
+    .product-minimal .showcase-container { min-width: 100%; }
+
+    .product-featured .showcase {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .product-featured .showcase-img { max-width: fit-content; }
+
+    .product-featured .showcase-content {
+        margin-top: 0;
+        min-width: calc(100% - 345px);
+    }
+
 }
