@@ -8,8 +8,8 @@ Anon is a fully responsive ecommerce website, maximum compatiblities in all mobi
 <a href="https://nethuh.github.io/Anon_modern_ecommerce_website/"><strong>➥ Live Demo</strong></a>
 ## Demo
 
-![Anon Desktop Demo](./Assets/website-demo-image/desktop.png "Desktop Demo")
-![Anon Mobile Demo](./Assets/website-demo-image/mobile.png "Mobile Demo")
+![Anon Desktop Demo](./assets/website-demo-image/desktop.png "Desktop Demo")
+![Anon Mobile Demo](./assets/website-demo-image/mobile.png "Mobile Demo")
 
 
 </div>
