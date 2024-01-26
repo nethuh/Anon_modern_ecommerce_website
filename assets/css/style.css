@@ -1840,4 +1840,35 @@ footer {
         border-top-left-radius: var(--border-radius-md);
         border-top-right-radius: var(--border-radius-md);
     }
+
+
+    /**
+  * #BANNER
+  */
+
+    .slider-item { aspect-ratio: 5 / 3; }
+
+    .banner-content {
+        top: 50%;
+        right: auto;
+        bottom: auto;
+        transform: translateY(-50%);
+        max-width: 320px;
+    }
+
+    .banner-subtitle { --fs-7: 1rem; }
+
+    .banner-text {
+        display: block;
+        color: var(--sonic-silver);
+        font-size: var(--fs-7);
+        font-weight: var(--weight-500);
+        margin-bottom: 10px;
+    }
+
+    .banner-text b { font-size: var(--fs-2); }
+
+    .banner-btn { padding: 7px 20px; }
+
+
 }
