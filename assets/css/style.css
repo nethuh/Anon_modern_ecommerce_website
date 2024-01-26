@@ -1571,3 +1571,20 @@ body::-webkit-scrollbar-thumb:hover {
     color: var(--sonic-silver);
     font-size: var(--fs-9);
 }
+
+
+
+/*-----------------------------------*\
+  #BLOG
+\*-----------------------------------*/
+
+.blog { margin-bottom: 30px; }
+
+.blog-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+}
