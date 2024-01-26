@@ -1754,3 +1754,23 @@ footer {
 
 .footer-nav-item .icon-box ion-icon { --ionicon-stroke-width: 30px; }
 
+.footer-nav .social-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-link .footer-nav-link { font-size: 25px; }
+
+.footer-bottom {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.payment-img {
+    max-width: 335px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 15px;
+}
