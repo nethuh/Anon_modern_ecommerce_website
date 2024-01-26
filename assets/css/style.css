@@ -1476,3 +1476,15 @@ body::-webkit-scrollbar-thumb:hover {
     height: 100%;
     object-fit: cover;
 }
+
+.cta-content {
+    background: hsla(0, 0%, 100%, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: var(--border-radius-sm);
+}
