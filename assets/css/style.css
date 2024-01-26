@@ -1787,3 +1787,57 @@ footer {
     display: inline;
     color: inherit;
 }
+
+
+/*-----------------------------------*\
+  #RESPONSIVE
+\*-----------------------------------*/
+
+
+/**
+ * responsive larger than 480px screen
+ */
+
+@media (min-width: 480px) {
+
+    /**
+     * #CUSTOM PROPERTY
+     */
+    :root {
+
+        /**
+         * typography
+         */
+
+        --fs-1: 1.875rem;
+
+    }
+
+    /**
+   * #HEADER
+   */
+
+    .header-top {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px solid var(--cultured);
+    }
+
+    .header-social-container,
+    .header-top-actions { display: none ;}
+
+    .header-alert-news {
+        color: var(--sonic-silver);
+        font-size: var(--fs-9);
+        text-transform: uppercase;
+    }
+
+    .header-alert-news b { font-weight: var(--weight-500); }
+
+    .header-main { padding: 25px 0; }
+
+    .mobile-bottom-navigation {
+        border-top-left-radius: var(--border-radius-md);
+        border-top-right-radius: var(--border-radius-md);
+    }
+}
