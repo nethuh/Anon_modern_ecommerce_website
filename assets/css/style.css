@@ -1653,3 +1653,20 @@ footer {
     text-transform: uppercase;
     margin-bottom: 15px;
 }
+
+.footer-category-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 3px;
+    margin-bottom: 15px;
+}
+
+.category-box-title {
+    color: var(--spanish-gray);
+    font-size: var(--fs-8);
+    font-weight: var(--weight-600);
+    text-transform: uppercase;
+}
