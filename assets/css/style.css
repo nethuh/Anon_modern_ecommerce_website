@@ -1541,3 +1541,16 @@ body::-webkit-scrollbar-thumb:hover {
     border: 1px solid var(--cultured);
     border-radius: var(--border-radius-md);
 }
+
+.service-item {
+    min-width: 190px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.service-icon {
+    font-size: 35px;
+    color: var(--salmon-pink);
+    transition: var(--transition-timing);
+}
