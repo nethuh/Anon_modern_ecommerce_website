@@ -1379,5 +1379,25 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .testimonial-name {
-
+    font-weight: var(--weight-700);
+    text-transform: uppercase;
+    color: var(--sonic-silver);
+    margin-bottom: 5px;
 }
+
+.testimonial-title {
+    color: var(--onyx);
+    font-size: var(--fs-7);
+    margin-bottom: 15px;
+}
+
+.quotation-img {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.testimonial-desc {
+    max-width: 70%;
+    margin: auto;
+    color: var(--sonic-silver);
+    font-size: var(--fs-7);}
