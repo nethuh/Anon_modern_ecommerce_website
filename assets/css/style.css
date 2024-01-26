@@ -1733,3 +1733,24 @@ footer {
     text-transform: capitalize;
     transition: var(--transition-timing);
 }
+
+.footer-nav-link:hover { color: var(--salmon-pink); }
+
+.footer-nav-item.flex {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.footer-nav-item .content {
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.footer-nav-item .icon-box {
+    color: var(--sonic-silver);
+    font-size: 25px;
+}
+
+.footer-nav-item .icon-box ion-icon { --ionicon-stroke-width: 30px; }
+
